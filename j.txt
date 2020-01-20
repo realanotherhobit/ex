@@ -1,0 +1,7 @@
+Kdyby nekdo tapal tak tady je jak jsem to udelal:
+
+1) Tarjan
+2) Projit vsechny vrcholy - podivat se na jejich potomky a parenty a pokud u jednoho z nich nesedi id komponenty vrcholu s jejich potomkem nebo parentem tak pridat hranu do/z komponenty
+3) Pokud vrchol ma vsechny potomky/parenty v ramci stejne komponenty tak je safe bus stop - to znamena zvysit cenu komponenty o jedna
+4) Na zaver udelat upravene BFS nad vsemi komponentami, najit nejdelsi cesty
+5) vratit cenu
